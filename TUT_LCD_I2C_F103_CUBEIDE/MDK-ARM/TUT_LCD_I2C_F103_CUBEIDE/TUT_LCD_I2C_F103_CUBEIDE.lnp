@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"tut_lcd_i2c_f103_cubeide\startup_stm32f103xb.o"
+"tut_lcd_i2c_f103_cubeide\main.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_it.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_msp.o"
+"tut_lcd_i2c_f103_cubeide\i2c-lcd.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_gpio_ex.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_i2c.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_rcc.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_rcc_ex.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_gpio.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_dma.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_cortex.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_pwr.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_flash.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_flash_ex.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_exti.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_tim.o"
+"tut_lcd_i2c_f103_cubeide\stm32f1xx_hal_tim_ex.o"
+"tut_lcd_i2c_f103_cubeide\system_stm32f1xx.o"
+--strict --scatter "TUT_LCD_I2C_F103_CUBEIDE\TUT_LCD_I2C_F103_CUBEIDE.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TUT_LCD_I2C_F103_CUBEIDE.map" -o TUT_LCD_I2C_F103_CUBEIDE\TUT_LCD_I2C_F103_CUBEIDE.axf
